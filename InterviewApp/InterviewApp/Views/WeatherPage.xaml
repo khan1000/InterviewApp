@@ -5,7 +5,7 @@
     <ContentPage.Content>
         <StackLayout Padding="10" Margin="20,35,20,25">
             <Label FontSize="Title" Text="Weather for London from OpenWether:"/>
-            <Label FontSize="40" Text="{Binding temp, StringFormat='{0:N0}°'}" HorizontalOptions="Center"/>
+            <Label FontSize="40" Text="{Binding temp, StringFormat='{0:N0}°C'}" HorizontalOptions="Center"/>
 
         </StackLayout>
 
